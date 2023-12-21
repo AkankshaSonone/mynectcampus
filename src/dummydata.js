@@ -174,8 +174,8 @@ export const coursesCard = [
 ]
 export const online = [
   {
-    cover: "./images/courses/online/o1.png",
-    hoverCover: "./images/courses/online/o1.1.png",
+    cover: "./images/courses/online/o8.png",
+    hoverCover: "./images/courses/online/o8.1.png",
     courseName: "Spoken English",
     course: "25 Courses",
   },
@@ -489,33 +489,33 @@ export const blog = [
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
     cover: "../images/blog/b3.webp",
   },
-  {
-    id: 4,
-    type: "admin",
-    date: "JAN. 02, 2022",
-    com: "3 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b4.webp",
-  },
-  {
-    id: 5,
-    type: "admin",
-    date: "DEC. 14, 2022",
-    com: "3 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b5.webp",
-  },
-  {
-    id: 6,
-    type: "user",
-    date: "JAN. 18, 2021",
-    com: "12 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b6.webp",
-  },
+  // {
+  //   id: 4,
+  //   type: "admin",
+  //   date: "JAN. 02, 2022",
+  //   com: "3 COMMENTS ",
+  //   title: "Build your Dream Software & Engineering Career",
+  //   desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+  //   cover: "../images/blog/b4.webp",
+  // },
+  // {
+  //   id: 5,
+  //   type: "admin",
+  //   date: "DEC. 14, 2022",
+  //   com: "3 COMMENTS ",
+  //   title: "Build your Dream Software & Engineering Career",
+  //   desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+  //   cover: "../images/blog/b5.webp",
+  // },
+  // {
+  //   id: 6,
+  //   type: "user",
+  //   date: "JAN. 18, 2021",
+  //   com: "12 COMMENTS ",
+  //   title: "Build your Dream Software & Engineering Career",
+  //   desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+  //   cover: "../images/blog/b6.webp",
+  // },
 ]
 export const testimonal = [
   {

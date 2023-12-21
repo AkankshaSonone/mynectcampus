@@ -5,13 +5,12 @@ import "../allcourses/courses.css"
 import { coursesCard } from "../../dummydata"
 import { coursesCard2 } from "../../dummydata"
 
-
-const HAbout = () => {
+const HAbout = ({setShowPopup}) => {
   return (
     <>
       <section className='homeAbout'>
         <div className='container'>
-          <Heading subtitle='our courses' title='explore our popular online courses' />
+          <Heading subtitle='our courses' title='In Campus Programmes' />
 
           <div className='coursesCard'>
             {/* copy code form  coursesCard */}
@@ -56,7 +55,7 @@ const HAbout = () => {
                       {val.priceAll}
                     </h3>
                   </div>
-                  <button className='outline-btn'>ENROLL NOW !</button>
+                  <button className='outline-btn' onClick={() => setShowPopup(true)} >ENROLL NOW !</button>
                 </div>
               ))}
             </div>
@@ -65,7 +64,7 @@ const HAbout = () => {
         <OnlineCourses />
         
         <div className='container'>
-          <Heading subtitle='Programme' title='ONLINE PROGRAMMES' />
+          <Heading subtitle='our courses' title='Online Programmes' />
 
           <div className='coursesCard'>
             {/* copy code form  coursesCard */}
@@ -110,7 +109,7 @@ const HAbout = () => {
                       {val.priceAll}
                     </h3>
                   </div>
-                  <button className='outline-btn'>ENROLL NOW !</button>
+                  <button className='outline-btn' onClick={() => setShowPopup(true)}>ENROLL NOW !</button>
                 </div>
               ))}
             </div>

@@ -2,15 +2,14 @@ import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import './Popup.css';
 
-const  Popup = (props) => {
-  const [showPopup, setShowPopup] = useState(false);
+const Popup = ({ showPopup, setShowPopup }) => {
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowPopup(true);
     }, 60
     );
-      
+
     emailjs.init('2-xhiVdYL21VXBFUJ');
     return () => clearTimeout(timer);
   }, []);
@@ -31,10 +30,10 @@ const  Popup = (props) => {
 
     try {
       const response = await emailjs.send(
-        'service_whk8nhe',  
-        'template_origu49',  
+        'service_whk8nhe',
+        'template_origu49',
         templateParams,
-          
+
       );
 
       console.log('Email sent!', response);
@@ -48,7 +47,7 @@ const  Popup = (props) => {
   };
 
   return (
-    <div className={`popup ${ (showPopup) ? 'show' : ''}`}>
+    <div className={`popup ${showPopup ? 'show' : ''}`}>
       <div className="popup-content">
         <span className="close" onClick={() => setShowPopup(false)}>
           &times;
