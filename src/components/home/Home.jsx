@@ -7,6 +7,8 @@ import Hero from "./hero/Hero"
 import Testimonal from "./testimonal/Testimonal"
 import Slider from "./hero/Slider"
 import Popup from "../../popup/Popup"
+import CoursesCard2 from "../allcourses/CoursesCard2"
+ 
 
 const Home = () => {
   // const [showPopup, setShowPopup] = useState(false);
@@ -23,6 +25,7 @@ const Home = () => {
       <Slider/>
       <AboutCard />
       <HAbout />
+      <CoursesCard2/>
       <Testimonal />
       <Hblog />
       

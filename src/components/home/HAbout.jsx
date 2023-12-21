@@ -3,8 +3,16 @@ import OnlineCourses from "../allcourses/OnlineCourses"
 import Heading from "../common/heading/Heading"
 import "../allcourses/courses.css"
 import { coursesCard } from "../../dummydata"
+import { coursesCard2 } from "../../dummydata"
+import { useEffect,useState } from "react"
+
 
 const HAbout = () => {
+  const [showPopup, setShowPopup] = useState(false);
+  function show(){
+ console.log("hello");
+  setShowPopup(true);
+  }   
   return (
     <>
       <section className='homeAbout'>
@@ -54,7 +62,7 @@ const HAbout = () => {
                       {val.priceAll}
                     </h3>
                   </div>
-                  <button className='outline-btn'>ENROLL NOW !</button>
+                  <button className='outline-btn'  onClick={show()}>ENROLL NOW !</button>
                 </div>
               ))}
             </div>
@@ -63,12 +71,12 @@ const HAbout = () => {
         <OnlineCourses />
         
         <div className='container'>
-          <Heading subtitle='our courses' title='explore our popular online courses' />
+          <Heading subtitle='Programmes' title='ONLINE PROGRAMMES' />
 
           <div className='coursesCard'>
             {/* copy code form  coursesCard */}
             <div className='grid2'>
-              {coursesCard.slice(0, 3).map((val) => (
+              {coursesCard2.slice(0, 3).map((val) => (
                 <div className='items'>
                   <div className='content flex'>
                     <div className='left'>

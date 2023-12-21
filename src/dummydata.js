@@ -307,7 +307,7 @@ export const coursesCard2 = [
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by By MyNextCampus",
+        name: "by MyNextCampus",
         totalTime: "100 lectures (150 hrs)",
       },
     ],

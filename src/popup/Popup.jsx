@@ -48,7 +48,7 @@ const  Popup = (props) => {
   };
 
   return (
-    <div className={`popup ${ showPopup ? 'show' : ''}`}>
+    <div className={`popup ${ (showPopup) ? 'show' : ''}`}>
       <div className="popup-content">
         <span className="close" onClick={() => setShowPopup(false)}>
           &times;

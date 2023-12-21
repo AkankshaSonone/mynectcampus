@@ -5,14 +5,14 @@ import Popup from "../../popup/Popup"
 import { useState } from "react"
 
 const CoursesCard = () => {
-  const [showPopup, setShowPopup] = useState(false);
-  function show(){
- console.log("hello");
-  setShowPopup(true);
-  }   
+//   const [showPopup, setShowPopup] = useState(false);
+//   function show(){
+//  console.log("hello");
+//   setShowPopup(true);
+//   }   
   return (
     <>
-    <Popup showPopup ={showPopup}/>
+    {/* <Popup showPopup ={showPopup}/> */}
       <section className='coursesCard'>
         <div className='container grid2'>
           {coursesCard.map((val) => (
@@ -55,7 +55,7 @@ const CoursesCard = () => {
                   {val.priceAll}   
                 </h3>
               </div>
-              <button className='outline-btn' onClick={show} >ENROLL NOW !</button>
+              <button className='outline-btn'  >ENROLL NOW !</button>
             </div>
           ))}
         </div>

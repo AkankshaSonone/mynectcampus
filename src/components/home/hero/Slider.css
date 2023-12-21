@@ -3,4 +3,14 @@
     z-index: -99;
     
 }
- 
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-text {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+
+}

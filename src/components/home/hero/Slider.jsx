@@ -1,5 +1,5 @@
 import React from 'react'
-import slider1 from './slider3.jpg'
+import slider1 from './slider.jpg'
 import './Slider.css'
 import slider2 from './slider123.jpg';
 import slider3 from './slider12.jpg';
@@ -16,9 +16,9 @@ const Slider = () => {
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src={slider1} class="d-block w-100" alt="..."/>
-      <div className='container'>
+      <div className='container carousel-text'>
           <div className='row'>
-            <Heading subtitle='WELCOME TO ACADEMIA' title='Best Online Education Expertise' />
+            <Heading subtitle='WELCOME TO ACADEMIA' title='Best Option for Your Education' />
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
             <div className='button'>
               <button className='primary-btn'>
@@ -33,9 +33,9 @@ const Slider = () => {
     </div>
     <div class="carousel-item">
       <img src={slider2} class="d-block w-100" alt="..."/>
-      <div className='container'>
+      <div className='container carousel-text'>
           <div className='row'>
-            <Heading subtitle='WELCOME TO ACADEMIA' title='Best Online Education Expertise' />
+            <Heading subtitle='WELCOME TO ACADEMIA' title='Best up Skilling Education Program' />
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
             <div className='button'>
               <button className='primary-btn'>
@@ -51,9 +51,9 @@ const Slider = () => {
     </div>
     <div class="carousel-item">
       <img src={slider3} class="d-block w-100" alt="..."/>
-      <div className='container'>
+      <div className='container carousel-text'>
           <div className='row'>
-            <Heading subtitle='WELCOME TO ACADEMIA' title='Best Online Education Expertise' />
+            <Heading subtitle='WELCOME TO ACADEMIA' title='Best Regular Education Program' />
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
             <div className='button'>
               <button className='primary-btn'>
