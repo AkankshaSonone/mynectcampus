@@ -4,15 +4,9 @@ import Heading from "../common/heading/Heading"
 import "../allcourses/courses.css"
 import { coursesCard } from "../../dummydata"
 import { coursesCard2 } from "../../dummydata"
-import { useEffect,useState } from "react"
 
 
 const HAbout = () => {
-  const [showPopup, setShowPopup] = useState(false);
-  function show(){
- console.log("hello");
-  setShowPopup(true);
-  }   
   return (
     <>
       <section className='homeAbout'>
@@ -62,7 +56,7 @@ const HAbout = () => {
                       {val.priceAll}
                     </h3>
                   </div>
-                  <button className='outline-btn'  onClick={show()}>ENROLL NOW !</button>
+                  <button className='outline-btn'>ENROLL NOW !</button>
                 </div>
               ))}
             </div>
@@ -71,7 +65,7 @@ const HAbout = () => {
         <OnlineCourses />
         
         <div className='container'>
-          <Heading subtitle='Programmes' title='ONLINE PROGRAMMES' />
+          <Heading subtitle='Programme' title='ONLINE PROGRAMMES' />
 
           <div className='coursesCard'>
             {/* copy code form  coursesCard */}

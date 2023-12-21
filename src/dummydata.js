@@ -65,7 +65,7 @@ export const coursesCard = [
   {
     id: 2,
     cover: "../images/courses/c2.png",
-    coursesName: "#Business Administration(BBA/MBA/PGDBM",
+    coursesName: "#Business Administration",
     courTeacher: [
       {
         dcover: "./images/back.webp",

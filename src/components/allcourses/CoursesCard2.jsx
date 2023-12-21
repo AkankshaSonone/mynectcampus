@@ -55,7 +55,7 @@ const CoursesCard2 = () => {
                   {val.priceAll}   
                 </h3>
               </div>
-              <button className='outline-btn' onClick={show} >ENROLL NOW !</button>
+              <button className='outline-btn'   >ENROLL NOW !</button>
             </div>
           ))}
         </div>
