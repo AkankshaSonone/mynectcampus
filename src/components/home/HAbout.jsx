@@ -74,7 +74,7 @@ const HAbout = ({ setShowPopup }) => {
           <div className="coursesCard">
             {/* copy code form  coursesCard */}
             <div className="grid2">
-              {coursesCard2.slice(0, 3).map((val) => (
+              {coursesCard2.map((val) => (
                 <div className="items">
                   <div className="content flex">
                     <div className="left">
