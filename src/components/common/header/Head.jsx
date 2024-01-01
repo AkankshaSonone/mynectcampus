@@ -5,7 +5,7 @@ const Head = () => {
   return (
     <>
       <section className='head'>
-        <div className='container flexSB'>
+        <div className='container header-box'>
           <div className='logo'>
           <img
             src={logo}

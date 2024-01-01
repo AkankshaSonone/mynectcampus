@@ -2,6 +2,9 @@
   padding: 50px 0;
 }
 .coursesCard .items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #fff;
   padding: 30px;
   text-align: center;
@@ -26,6 +29,7 @@
   font-size: 30px;
   font-weight: 500;
   line-height: 45px;
+  min-height: 90px;
 }
 .coursesCard .rate {
   margin: 20px 0;
