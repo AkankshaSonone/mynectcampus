@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
           <div className='box'>
             <h3>Recent Post</h3>
-            {blog.slice(0, 3).map((val) => (
+            {blog.slice(0, 1).map((val) => (
               <div className='items flexSB'>
                 <div className='img'>
                   <img src={val.cover} alt='' />
