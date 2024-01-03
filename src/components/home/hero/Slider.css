@@ -14,3 +14,43 @@
     left: 50px;
 
 }
+@media screen and (max-width: 768px) {
+    /* .carousel-item {
+        
+       position: static;
+    }
+    */
+    
+    .carousel-text {
+       
+       top: -20px;
+      
+     
+    } 
+
+    .carousel{
+        margin-top:  0px;
+        
+        
+    }
+    .carousel-text .row{
+        width: 100%;
+        font-size:  x-small;
+        
+    }
+    .carousel-item img{
+        opacity: 0.5;
+    }
+    .carousel-text .row h3{
+      /* font-size: medium; */
+    }
+    .carousel-text .row h1{
+        margin-bottom:0 !important;
+         
+      }
+      .carousel-text .row p{
+        margin :0 !important;
+         
+      }
+
+}

@@ -2,6 +2,8 @@
   padding: 50px 0;
 }
 .coursesCard .items {
+  scroll-snap-align: start;
+  border-radius: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -55,6 +57,21 @@
   font-weight: 500;
   font-size: 14px;
 }
+.coursesCard .grid2{
+  display: grid;
+  grid-auto-flow:column;
+  scroll-behavior: auto;
+  gap:1.2rem;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width:none;
+}
+.coursesCard .grid2::webkit-scrollbar{
+  display:none;
+  
+}
+ 
 .coursesCard .price {
   margin: 30px 0;
   background-color: #f8f8f8;
@@ -64,7 +81,7 @@
   font-weight: 500;
   color: #05386B;
 }
-/*-------------online---------*/
+ 
 .online {
   text-align: center;
 }
@@ -116,6 +133,14 @@
 .online .box:hover h1 {
   color: #fff;
 }
-/*-------------online---------*/
+
+ 
+ 
+
 @media screen and (max-width: 768px) {
+  .coursesCard .items {
+    flex-direction: column;
+    align-items: center;
+    
+  }
 }

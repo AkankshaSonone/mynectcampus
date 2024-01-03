@@ -3,7 +3,9 @@ import { blog } from "../../../dummydata"
 import "./footer.css"
 
 const Footer = () => {
+  
   return (
+    
     <>
       <section className='newletter'>
         <div className='container flexSB'>

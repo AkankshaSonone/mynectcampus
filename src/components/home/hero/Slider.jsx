@@ -16,7 +16,7 @@ const Slider = () => {
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src={slider1} class="d-block w-100" alt="..."/>
-      <div className='container carousel-text'>
+      <div className='  container carousel-text'>
           <div className='row'>
             <Heading subtitle='WELCOME TO ACADEMIA' title='Best Option for Your Education' />
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>

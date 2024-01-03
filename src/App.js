@@ -40,7 +40,7 @@ function App() {
           <Route exact path='/journal' element={<Blog/>} />
           </Routes>
           <Routes> 
-          <Route   path='/contact' exact component={<Contact/>} />
+          <Route  exact path='/contact'  element={<Contact/>} />
           </Routes>
          
         <Footer />
