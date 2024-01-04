@@ -74,6 +74,7 @@ button[type='submit']:hover {
   padding: 5px; /* Padding to control the button size */
   background-color: #fff; /* Background color */
   transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  opacity: 1.5;
 }
 
 .close::before {
@@ -91,17 +92,17 @@ button[type='submit']:hover {
 }
 @media screen and (max-width: 768px) {
   .popup {
-    width: 80%; /* Adjust the width for smaller screens */
-    max-width: 50%; /* Adjust the maximum width for smaller screens */
-    padding: 50px; /* Adjust padding for smaller screens */
-    border-radius: 10px; /* Adjust border radius for smaller screens */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adjust box shadow for smaller screens */
-    max-height: 80vh; /* Adjust the maximum height for smaller screens */
-    overflow-y:hidden; /* Enable vertical scroll if content exceeds height */
+    width: 80%; 
+    max-width: 50%; 
+    padding: 50px;  
+    border-radius: 10px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
+    max-height: 80vh;  
+    overflow-y:hidden; 
      
   }
 
-  /* Adjust close button styles for smaller screens */
+  
   .close {
     font-size: 16px; /* Adjust close button size for smaller screens */
     /* Add other necessary adjustments for close button in smaller screens */
