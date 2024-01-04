@@ -139,9 +139,8 @@
 
 @media screen and (max-width: 768px) {
   .coursesCard .items {
-    flex-direction: column;
-    align-items: center;
-    padding: 110px;
-    
+    width: calc(100% - 20px); /* Set full width for single card on smaller screens */
+    margin: 10px 0; /* Adjust margin for better spacing */
+    padding: 110px; /* Adjust padding */
   }
 }
