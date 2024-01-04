@@ -7,7 +7,7 @@ const Popup = ({ showPopup, setShowPopup }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowPopup(true);
-    }, 6000
+    }, 60000
     );
 
     emailjs.init('2-xhiVdYL21VXBFUJ');
