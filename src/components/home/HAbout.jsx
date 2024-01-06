@@ -10,7 +10,7 @@ const HAbout = ({ setShowPopup }) => {
     <>
       <section className="homeAbout">
         <div className="container">
-          <Heading subtitle="our courses" title="In Campus Programmes" />
+          <Heading subtitle="Our Education Programmes" title="In Campus Programmes" />
 
           <div className="coursesCard">
             {/* copy code form  coursesCard */}
