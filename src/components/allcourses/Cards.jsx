@@ -1,12 +1,11 @@
 import React from 'react'
 import './Cards.css'
-// import { coursesCard2 } from '../../dummydata'
 import Card from './Card'
 
 const Cards = ({ course, setShowPopup }) => {
   return (
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" >
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="cards-wrapper coursesCard">
