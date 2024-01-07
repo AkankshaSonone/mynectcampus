@@ -1,18 +1,22 @@
 import React from "react"
 import Back from "../common/back/Back"
-import CoursesCard from "./CoursesCard"
 import OnlineCourses from "./OnlineCourses"
-import CoursesCard2 from "./CoursesCard2"
- 
+import Cards from "./Cards"
+import { coursesCard, coursesCard2 } from '../../dummydata'
 
-const CourseHome = () => {
+
+
+const CourseHome = ({ setShowPopup }) => {
   return (
     <>
       <Back title='Explore Courses' />
-      <CoursesCard />
+      <div className="container">
+        <Cards course={coursesCard} setShowPopup={setShowPopup} />
+      </div>
       <OnlineCourses />
-      <CoursesCard2/>
-     
+      <div className="container">
+        <Cards course={coursesCard2} setShowPopup={setShowPopup} />
+      </div>
     </>
   )
 }
