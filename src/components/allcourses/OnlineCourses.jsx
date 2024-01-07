@@ -1,10 +1,16 @@
-import React from "react"
+import { useState } from "react";
 import "./courses.css"
 import { online } from "../../dummydata"
 import Heading from "../common/heading/Heading"
+import Popup from "../../popup/Popup";
 import { RiSpeakFill } from "react-icons/ri";
 
 const OnlineCourses = () => {
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handleIconClick = () => {
+    setShowPopup(true);
+  };
   return (
     <>
       <section className='online'>
@@ -18,11 +24,12 @@ const OnlineCourses = () => {
                   {/* <img src={val.hoverCover} alt='' className='show' /> */}
                 </div>
                 <h1>{val.courseName}</h1>
-                <span>{val.course}</span>
+                <span onClick={handleIconClick}>{val.course}</span>
               </div>
             ))}
           </div>
         </div>
+        {showPopup && <Popup showPopup={showPopup} setShowPopup={setShowPopup} />}
       </section>
     </>
   )

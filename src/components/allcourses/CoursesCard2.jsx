@@ -1,15 +1,15 @@
-import React from "react"
+import { useState } from "react"
+
 import "./courses.css"
 import { coursesCard2 } from "../../dummydata"
 import Popup from "../../popup/Popup"
-import { useState } from "react"
 
 const CoursesCard2 = () => {
   const [showPopup, setShowPopup] = useState(false);
-  function show(){
- console.log("hello");
-  setShowPopup(true);
-  }   
+
+  const handleIconClick = () => {
+    setShowPopup(true);
+  };
   return (
     <>
     <Popup showPopup ={showPopup}/>
@@ -55,10 +55,11 @@ const CoursesCard2 = () => {
                   {val.priceAll}   
                 </h3>
               </div>
-              <button className='outline-btn'   >ENROLL NOW !</button>
+              <button className='outline-btn' onClick={handleIconClick}  >ENROLL NOW !</button>
             </div>
           ))}
         </div>
+        {showPopup && <Popup showPopup={showPopup} setShowPopup={setShowPopup} />}
       </section>
     </>
   )
