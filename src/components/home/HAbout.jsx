@@ -4,6 +4,7 @@ import Heading from "../common/heading/Heading";
 import "../allcourses/courses.css";
 import { coursesCard } from "../../dummydata";
 import { coursesCard2 } from "../../dummydata";
+import Cards from "../allcourses/Cards";
 
 const HAbout = ({ setShowPopup }) => {
   return (
@@ -11,9 +12,8 @@ const HAbout = ({ setShowPopup }) => {
       <section className="homeAbout">
         <div className="container">
           <Heading subtitle="Our Education Programmes" title="In Campus Programmes" />
-
-          <div className="coursesCard">
-            {/* copy code form  coursesCard */}
+          <Cards course={coursesCard} setShowPopup={setShowPopup} />
+          {/* <div className="coursesCard">
             <div className="grid2">
               {coursesCard.slice(0, 3).map((val) => (
                 <div className="items">
@@ -64,15 +64,15 @@ const HAbout = ({ setShowPopup }) => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
+
         <OnlineCourses />
 
         <div className="container">
           <Heading subtitle="our courses" title="Online Programmes" />
-
-          <div className="coursesCard">
-            {/* copy code form  coursesCard */}
+          <Cards course={coursesCard2} setShowPopup={setShowPopup} />
+          {/* <div className="coursesCard">
             <div className="grid2">
               {coursesCard2.map((val) => (
                 <div className="items">
@@ -113,17 +113,17 @@ const HAbout = ({ setShowPopup }) => {
                     <div className="price">
                       <h3>{val.priceAll}</h3>
                     </div>
-                      <button
-                        className="outline-btn"
-                        onClick={() => setShowPopup(true)}
-                      >
-                        ENROLL NOW !
-                      </button>
+                    <button
+                      className="outline-btn"
+                      onClick={() => setShowPopup(true)}
+                    >
+                      ENROLL NOW !
+                    </button>
                   </div>
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
