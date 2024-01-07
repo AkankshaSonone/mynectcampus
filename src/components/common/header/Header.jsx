@@ -34,6 +34,9 @@ const Header = () => {
             <li>
               <Link to='/contact'>Contact</Link>
             </li>
+            <li>
+              <Link to='/blog2'>Blog</Link>
+            </li>
             
           </ul>
           <div className='start'>

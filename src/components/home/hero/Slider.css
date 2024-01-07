@@ -1,14 +1,14 @@
-.carousel{
+  .slider-div{
     margin-top: -217.93px;
     z-index: -99;
     
 }
 
-.carousel-item {
+.slider-item {
     position: relative;
 }
 
-.carousel-text {
+.slider-text {
     position: absolute;
     top: 250px;
     left: 50px;

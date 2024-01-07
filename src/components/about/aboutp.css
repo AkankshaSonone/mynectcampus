@@ -11,7 +11,8 @@
   /* Text section */
   .text-section {
     flex: 1;
-    padding-right: 20px; /* Adjust as needed */
+    padding-right: 20px;
+
   }
   
   .text-section h2 {
@@ -22,14 +23,15 @@
   .text-section p {
     font-size: 16px;
     line-height: 1.6;
+    text-align: justify;
   }
   
-  /* Image section */
+   
   .image-section {
     flex: 1;
   }
   
-  /* Image styling */
+  
   .about-image {
     max-width: 100%;
     height: auto;

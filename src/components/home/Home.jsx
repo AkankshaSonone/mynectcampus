@@ -7,13 +7,14 @@ import { useState } from "react"
 import Testimonal from "./testimonal/Testimonal"
 import Slider from "./hero/Slider"
 import Popup from "../../popup/Popup"
+import Cards from "../allcourses/Cards"
 
 const Home = () => {
   const [showPopup, setShowPopup] = useState(false);
 
   return (
     <>
-      {/* <Hero /> */}
+   {/* <Cards/> */}
       <Popup showPopup={showPopup} setShowPopup={setShowPopup} />
       <Slider />
       <AboutCard />

@@ -15,6 +15,7 @@ import Blog from "./components/blog/Blog"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
+import Cards from "./components/allcourses/Cards";
  
 function App() {
    
@@ -41,6 +42,9 @@ function App() {
           </Routes>
           <Routes> 
           <Route  exact path='/contact'  element={<Contact/>} />
+          </Routes>
+          <Routes>
+            <Route exact path="/cards" element={<Cards/>} />
           </Routes>
          
         <Footer />
