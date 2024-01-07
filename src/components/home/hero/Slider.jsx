@@ -2,7 +2,7 @@ import React from 'react'
 import slider1 from './slider.jpg'
 import './Slider.css'
 import slider2 from './first1.png';
-import slider3 from './third.jpeg';
+import slider3 from './second.png';
 import Heading from "../../common/heading/Heading"
 const Slider = () => {
   return (

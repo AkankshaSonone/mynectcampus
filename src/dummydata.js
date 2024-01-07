@@ -1,3 +1,5 @@
+import { RiSpeakFill } from "react-icons/ri";
+
 export const homeAbout = [
   {
     id: 1,
@@ -174,8 +176,8 @@ export const coursesCard = [
 ]
 export const online = [
   {
-    cover: "./images/courses/online/o8.png",
-    hoverCover: "./images/courses/online/o8.1.png",
+    cover: <RiSpeakFill/>,
+    // hoverCover: "./images/courses/online/o8.1.png",
     courseName: "Spoken English",
     course: "25 Courses",
   },

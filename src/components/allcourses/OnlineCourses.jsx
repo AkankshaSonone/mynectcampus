@@ -2,6 +2,7 @@ import React from "react"
 import "./courses.css"
 import { online } from "../../dummydata"
 import Heading from "../common/heading/Heading"
+import { RiSpeakFill } from "react-icons/ri";
 
 const OnlineCourses = () => {
   return (
@@ -14,7 +15,7 @@ const OnlineCourses = () => {
               <div className='box'>
                 <div className='img'>
                   <img src={val.cover} />
-                  <img src={val.hoverCover} alt='' className='show' />
+                  {/* <img src={val.hoverCover} alt='' className='show' /> */}
                 </div>
                 <h1>{val.courseName}</h1>
                 <span>{val.course}</span>
