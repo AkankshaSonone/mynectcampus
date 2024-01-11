@@ -48,3 +48,10 @@
   background-color: #fff;
   color: #05386B;
 }
+
+.blog-link{
+  display: block;
+   
+  text-align: right;
+
+}
