@@ -1,5 +1,78 @@
-import { RiSpeakFill } from "react-icons/ri";
 
+ 
+
+export const online = [
+  {
+    cover:  "fas fa-volume-up",
+    courseName: "Spoken English",
+    course: "25 Courses",
+  },
+  {
+    cover:  "fas fa-people-arrows" ,
+    courseName: "Communication skill",
+    course: "25 Courses",
+  },
+  {
+    cover: "fas fa-bullhorn",
+    hoverCover: "./images/courses/online/o3.1.png",
+    courseName: "Digital marketing",
+    course: "10 Courses",
+  },
+  {
+    cover: "fas fa-user-graduate",
+    hoverCover: "./images/courses/online/o4.1.png",
+    courseName: "Leadership Managementc",
+    course: "15 Courses",
+  },
+  {
+    cover: "fas fa-chess",
+    hoverCover: "./images/courses/online/o5.1.png",
+    courseName: "Strategic Management",
+    course: "30 Courses",
+  },
+  {
+    cover: "fas fa-copyright",
+    hoverCover: "./images/courses/online/o6.1.png",
+    courseName: "Brand Management",
+    course: "60 Courses",
+  },
+  {
+    cover: "fas fa-ad",
+    hoverCover: "./images/courses/online/o7.1.png",
+    courseName: "Advertising",
+    course: "10 Courses",
+  },
+  {
+    cover: "fas fa-robot",
+    hoverCover: "./images/courses/online/o8.1.png",
+    courseName: "Artificial Intelligence",
+    course: "30 Courses",
+  },
+  {
+    cover: "fas fa-address-card",
+    hoverCover: "./images/courses/online/o9.1.png",
+    courseName: "Corporate communication",
+    course: "80 Courses",
+  },
+  {
+    cover: "fas fa-user-tie",
+    hoverCover: "./images/courses/online/o10.1.png",
+    courseName: "Interview preparation",
+    course: "120 Courses",
+  },
+  {
+    cover: "fas fa-briefcase",
+    hoverCover: "./images/courses/online/o11.1.png",
+    courseName: "Business Administration",
+    course: "17 Courses",
+  },
+  {
+    cover: "fas fa-laptop-code",
+    hoverCover: "./images/courses/online/o12.1.png",
+    courseName: "Web Management",
+    course: "17 Courses",
+  },
+]
 export const homeAbout = [
   {
     id: 1,
@@ -174,80 +247,80 @@ export const coursesCard = [
   //   pricePer: "$3 per month",
   // },
 ]
-export const online = [
-  {
-    cover: <RiSpeakFill/>,
-    // hoverCover: "./images/courses/online/o8.1.png",
-    courseName: "Spoken English",
-    course: "25 Courses",
-  },
-  {
-    cover: "./images/courses/online/o2.png",
-    hoverCover: "./images/courses/online/o2.1.png",
-    courseName: "Communication skill",
-    course: "25 Courses",
-  },
-  {
-    cover: "./images/courses/online/o3.png",
-    hoverCover: "./images/courses/online/o3.1.png",
-    courseName: "Digital marketing",
-    course: "10 Courses",
-  },
-  {
-    cover: "./images/courses/online/o4.png",
-    hoverCover: "./images/courses/online/o4.1.png",
-    courseName: "Leadership Managementc",
-    course: "15 Courses",
-  },
-  {
-    cover: "./images/courses/online/o5.png",
-    hoverCover: "./images/courses/online/o5.1.png",
-    courseName: "Strategic Management",
-    course: "30 Courses",
-  },
-  {
-    cover: "./images/courses/online/o6.png",
-    hoverCover: "./images/courses/online/o6.1.png",
-    courseName: "Brand Management",
-    course: "60 Courses",
-  },
-  {
-    cover: "./images/courses/online/o7.png",
-    hoverCover: "./images/courses/online/o7.1.png",
-    courseName: "Advertising",
-    course: "10 Courses",
-  },
-  {
-    cover: "./images/courses/online/o8.png",
-    hoverCover: "./images/courses/online/o8.1.png",
-    courseName: "Artificial Intelligence",
-    course: "30 Courses",
-  },
-  {
-    cover: "./images/courses/online/o9.png",
-    hoverCover: "./images/courses/online/o9.1.png",
-    courseName: "Corporate communication",
-    course: "80 Courses",
-  },
-  {
-    cover: "./images/courses/online/o10.png",
-    hoverCover: "./images/courses/online/o10.1.png",
-    courseName: "Interview preparation",
-    course: "120 Courses",
-  },
-  {
-    cover: "./images/courses/online/o11.png",
-    hoverCover: "./images/courses/online/o11.1.png",
-    courseName: "Business Administration",
-    course: "17 Courses",
-  },
-  {
-    cover: "./images/courses/online/o12.png",
-    hoverCover: "./images/courses/online/o12.1.png",
-    courseName: "Web Management",
-    course: "17 Courses",
-  },
-]
+// export const online = [
+//   {
+//     cover: <fa4/>,
+//     // hoverCover: "./images/courses/online/o8.1.png",
+//     courseName: "Spoken English",
+//     course: "25 Courses",
+//   },
+//   {
+//     cover: "./images/courses/online/o2.png",
+//     hoverCover: "./images/courses/online/o2.1.png",
+//     courseName: "Communication skill",
+//     course: "25 Courses",
+//   },
+//   {
+//     cover: "./images/courses/online/o3.png",
+//     hoverCover: "./images/courses/online/o3.1.png",
+//     courseName: "Digital marketing",
+//     course: "10 Courses",
+//   },
+//   {
+//     cover: "./images/courses/online/o4.png",
+//     hoverCover: "./images/courses/online/o4.1.png",
+//     courseName: "Leadership Managementc",
+//     course: "15 Courses",
+//   },
+//   {
+//     cover: "./images/courses/online/o5.png",
+//     hoverCover: "./images/courses/online/o5.1.png",
+//     courseName: "Strategic Management",
+//     course: "30 Courses",
+//   },
+//   {
+//     cover: "./images/courses/online/o6.png",
+//     hoverCover: "./images/courses/online/o6.1.png",
+//     courseName: "Brand Management",
+//     course: "60 Courses",
+//   },
+//   {
+//     cover: "./images/courses/online/o7.png",
+//     hoverCover: "./images/courses/online/o7.1.png",
+//     courseName: "Advertising",
+//     course: "10 Courses",
+//   },
+//   {
+//     cover: "./images/courses/online/o8.png",
+//     hoverCover: "./images/courses/online/o8.1.png",
+//     courseName: "Artificial Intelligence",
+//     course: "30 Courses",
+//   },
+//   {
+//     cover: "./images/courses/online/o9.png",
+//     hoverCover: "./images/courses/online/o9.1.png",
+//     courseName: "Corporate communication",
+//     course: "80 Courses",
+//   },
+//   {
+//     cover: "./images/courses/online/o10.png",
+//     hoverCover: "./images/courses/online/o10.1.png",
+//     courseName: "Interview preparation",
+//     course: "120 Courses",
+//   },
+//   {
+//     cover: "./images/courses/online/o11.png",
+//     hoverCover: "./images/courses/online/o11.1.png",
+//     courseName: "Business Administration",
+//     course: "17 Courses",
+//   },
+//   {
+//     cover: "./images/courses/online/o12.png",
+//     hoverCover: "./images/courses/online/o12.1.png",
+//     courseName: "Web Management",
+//     course: "17 Courses",
+//   },
+// ]
 export const coursesCard2 = [
   {
     id: 1,
@@ -636,21 +709,21 @@ export const testimonal = [
     name: "College name",
     // post: "MARKETING MANAGER",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t1.webp",
+    cover: "./images/testo/college1.jpeg",
   },
   {
     id: 2,
     name: "College Name",
     // post: "MARKETING MANAGER",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t2.webp",
+    cover: "./images/testo/college2.jpeg",
   },
   {
     id: 3,
     name: "Collge Name",
     // post: "MARKETING MANAGER",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t3.webp",
+    cover: "./images/testo/college3.jpeg",
   },
 ]
 

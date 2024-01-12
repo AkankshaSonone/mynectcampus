@@ -3,7 +3,8 @@ import "./courses.css"
 import { online } from "../../dummydata"
 import Heading from "../common/heading/Heading"
 import Popup from "../../popup/Popup";
-import { RiSpeakFill } from "react-icons/ri";
+ 
+
 
 const OnlineCourses = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -19,11 +20,10 @@ const OnlineCourses = () => {
           <div className='content grid3'>
             {online.map((val) => (
               <div className='box'>
-                <div className='img'>
-                  <img src={val.cover} />
-                  {/* <img src={val.hoverCover} alt='' className='show' /> */}
-                </div>
-                <h1>{val.courseName}</h1>
+                {/* <div className='img'> */}
+                {/* <FontAwesomeIcon icon={val.cover} /> */}
+                <i className= {val.cover}> </i>  
+                  <h1>{val.courseName}</h1>
                 <span onClick={handleIconClick}>{val.course}</span>
               </div>
             ))}
