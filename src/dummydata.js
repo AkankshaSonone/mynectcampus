@@ -1,14 +1,11 @@
-
- 
-
 export const online = [
   {
-    cover:  "fas fa-volume-up",
+    cover: "fas fa-volume-up",
     courseName: "Spoken English",
     course: "25 Courses",
   },
   {
-    cover:  "fas fa-people-arrows" ,
+    cover: "fas fa-people-arrows",
     courseName: "Communication skill",
     course: "25 Courses",
   },
@@ -72,7 +69,7 @@ export const online = [
     courseName: "Web Management",
     course: "17 Courses",
   },
-]
+];
 export const homeAbout = [
   {
     id: 1,
@@ -98,10 +95,11 @@ export const homeAbout = [
     title: "Online education programme",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
-]
+];
 export const awrapper = [
   {
-    cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
+    cover:
+      "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
     data: "300",
     title: "SUCCESS STORIES",
   },
@@ -112,7 +110,8 @@ export const awrapper = [
     title: "TRUSTED TUTORS",
   },
   {
-    cover: "https://img.icons8.com/external-outline-icons-maxicons/80/ffffff/external-calender-insurance-outline-outline-icons-maxicons.png",
+    cover:
+      "https://img.icons8.com/external-outline-icons-maxicons/80/ffffff/external-calender-insurance-outline-outline-icons-maxicons.png",
     data: "1,000",
     title: "SCHEDULES",
   },
@@ -121,7 +120,7 @@ export const awrapper = [
     data: "587",
     title: "COURSES",
   },
-]
+];
 export const coursesCard = [
   {
     id: 1,
@@ -135,7 +134,6 @@ export const coursesCard = [
       },
     ],
     priceAll: "Free",
-    
   },
   {
     id: 2,
@@ -246,7 +244,7 @@ export const coursesCard = [
   //   priceAll: "$20 All Course",
   //   pricePer: "$3 per month",
   // },
-]
+];
 // export const online = [
 //   {
 //     cover: <fa4/>,
@@ -334,7 +332,6 @@ export const coursesCard2 = [
       },
     ],
     priceAll: "Free",
-    
   },
   {
     id: 2,
@@ -387,7 +384,7 @@ export const coursesCard2 = [
       },
     ],
     priceAll: "Free",
-  //   pricePer: "$30 per month",
+    //   pricePer: "$30 per month",
   },
   {
     id: 6,
@@ -401,7 +398,7 @@ export const coursesCard2 = [
       },
     ],
     priceAll: "Free",
-  //   pricePer: "$80 per month",
+    //   pricePer: "$80 per month",
   },
   // {
   //   id: 7,
@@ -445,7 +442,7 @@ export const coursesCard2 = [
   //   priceAll: "$20 All Course",
   //   pricePer: "$3 per month",
   // },
-]
+];
 export const team = [
   {
     cover: "./images/team/t1.webp",
@@ -487,7 +484,7 @@ export const team = [
     name: "Ph.D Brian Wooden",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
-]
+];
 export const price = [
   {
     name: "BASIC PLAN",
@@ -509,7 +506,7 @@ export const price = [
     price: "149K",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
-]
+];
 export const faq = [
   {
     title: "How to Enroll This Online Courses?",
@@ -535,7 +532,7 @@ export const faq = [
     title: "How It is hidden by default, until the collapse?",
     desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
   },
-]
+];
 export const blog = [
   {
     id: 1,
@@ -544,25 +541,21 @@ export const blog = [
     com: "3 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    content:[
+    content: [
       {
-        index:1,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi."
-        
+        index: 1,
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi.",
       },
       {
-        index:2,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi."
-        
+        index: 2,
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi.",
       },
       {
-        index:3,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi."
-        
+        index: 3,
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi.",
       },
-
     ],
-    
+
     cover: "../images/blog/b1.webp",
   },
   {
@@ -572,25 +565,21 @@ export const blog = [
     com: "5 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    content:[
+    content: [
       {
-        index:1,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi."
-        
+        index: 1,
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi.",
       },
       {
-        index:2,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi."
-        
+        index: 2,
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi.",
       },
       {
-        index:3,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi."
-        
+        index: 3,
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi.",
       },
-
     ],
-     
+
     cover: "../images/blog/b2.webp",
   },
   {
@@ -600,25 +589,21 @@ export const blog = [
     com: "10 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    content:[
+    content: [
       {
-        index:1,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi."
-        
+        index: 1,
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi.",
       },
       {
-        index:2,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi."
-        
+        index: 2,
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi.",
       },
       {
-        index:3,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi."
-        
+        index: 3,
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi.",
       },
-
     ],
-    
+
     cover: "../images/blog/b3.webp",
   },
   {
@@ -628,23 +613,19 @@ export const blog = [
     com: "3 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-  content:[
+    content: [
       {
-        index:1,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi."
-        
+        index: 1,
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi.",
       },
       {
-        index:2,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi."
-        
+        index: 2,
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi.",
       },
       {
-        index:3,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi."
-        
+        index: 3,
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi.",
       },
-
     ],
     cover: "../images/blog/b4.webp",
   },
@@ -655,23 +636,19 @@ export const blog = [
     com: "3 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    content:[
+    content: [
       {
-        index:1,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi."
-        
+        index: 1,
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi.",
       },
       {
-        index:2,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi."
-        
+        index: 2,
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi.",
       },
       {
-        index:3,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi."
-        
+        index: 3,
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi.",
       },
-
     ],
     cover: "../images/blog/b5.webp",
   },
@@ -682,27 +659,23 @@ export const blog = [
     com: "12 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    content:[
+    content: [
       {
-        index:1,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi."
-        
+        index: 1,
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi.",
       },
       {
-        index:2,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi."
-        
+        index: 2,
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi.",
       },
       {
-        index:3,
-        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi."
-        
+        index: 3,
+        para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores dicta eligendi aliquid minima, non quaerat natus, deleniti nostrum quo minus voluptatum. Sunt ea sequi officia quasi delectus, ut, quam corporis quod temporibus nostrum veritatis in excepturi architecto itaque earum nulla neque sit minima explicabo esse ad dolores! Vitae consequuntur est ipsam quisquam, officiis quis minus nostrum. Labore inventore, commodi ex minima officia nobis exercitationem soluta at tempora accusantium qui, officiis, ullam placeat animi corrupti! Alias, magnam esse! Ad itaque minima sit, temporibus deserunt esse vitae sint animi perspiciatis neque earum unde magni, voluptas officia excepturi hic eos nisi eligendi.",
       },
-
     ],
     cover: "../images/blog/b6.webp",
   },
-]
+];
 export const testimonal = [
   {
     id: 1,
@@ -725,6 +698,4 @@ export const testimonal = [
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     cover: "./images/testo/college3.jpeg",
   },
-]
-
-
+];
