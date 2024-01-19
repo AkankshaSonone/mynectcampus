@@ -1,0 +1,54 @@
+.sticky-button-container {
+  margin-top: 90px;
+  margin-right: 0px;
+  height: 164px;
+  position: fixed;
+  right: 0;
+  top: 212px;
+  width: 70px;
+  z-index: 99;
+  box-shadow: none;
+   
+  }
+  
+  .sticky-button {
+    /* padding: 16px 30px; */
+    background-color:#05386B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    writing-mode: vertical-rl;
+text-orientation: mixed;
+  }
+  
+  .sticky-button:hover {
+    background-color: #0056b3;
+  }
+  button{
+    overflow: visible;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    .sticky-button-container {
+      bottom: 10px;
+      right: 10px;
+    }
+  
+    .sticky-button {
+      padding: 8px 16px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sticky-button-container {
+      bottom: 5px;
+      right: 5px;
+    }
+  
+    .sticky-button {
+      padding: 6px 12px;
+    }
+  }
