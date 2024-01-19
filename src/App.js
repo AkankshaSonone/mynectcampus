@@ -11,6 +11,7 @@ import Footer from "./components/common/footer/Footer";
 import Home from "./components/home/Home";
 import Cards from "./components/allcourses/Cards";
 import BlogPage from "./components/home/BlogPage";
+import Register from "./components/home/hero/Register";
 
 function App() {
   const [showPopup, setShowPopup] = useState(false);
@@ -19,7 +20,7 @@ function App() {
     <>
       <Router>
         <Header />
-
+      <Register/>
         <Routes>
           <Route
             exact
