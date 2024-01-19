@@ -11,7 +11,7 @@ const Cards = ({ course, setShowPopup }) => {
           <div class="cards-wrapper coursesCard">
             <div className="grid2">
               {course?.slice(0, 3)?.map((val) => (
-                <Card val={val} />
+                <Card val={val} setShowPopup={setShowPopup} />
               ))}
             </div>
           </div>
