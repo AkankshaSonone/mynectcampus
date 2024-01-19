@@ -3,14 +3,17 @@ import React from 'react'
 const Card = ({ val, setShowPopup }) => {
     return (
         <div className='items'>
-            <div className='content flex'>
-                <div className='left'>
+            <div className='flex'>
+                {/* <div className='left'> */}
                     <div className='img'>
                         <img src={val.cover} alt='' />
                     </div>
-                </div>
-                <div className='text'>
-                    <h1>{val.coursesName}</h1>
+                    <div className="pl-3">
+                    <h3>{val.coursesName}</h3>
+                    </div>
+                {/* </div> */}
+            </div>
+            <div className='text'>
                     <div className='rate'>
                         <i className='fa fa-star'></i>
                         <i className='fa fa-star'></i>
@@ -35,7 +38,6 @@ const Card = ({ val, setShowPopup }) => {
                         ))}
                     </div>
                 </div>
-            </div>
             <div className='price'>
                 <h3>
                     {val.priceAll}

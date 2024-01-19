@@ -8,8 +8,11 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: #fff;
-  padding: 30px 0;
+  padding: 30px 10px;
   text-align: center;
+}
+.coursesCard .items .flex {
+  align-items: center;
 }
 .coursesCard .img {
   width: 80px;
@@ -31,7 +34,7 @@
   font-size: 30px;
   font-weight: 500;
   line-height: 45px;
-  min-height: 90px;
+  /* min-height: 90px; */
 }
 .coursesCard .rate {
   margin: 20px 0;
@@ -73,7 +76,7 @@
 }
  
 .coursesCard .price {
-  margin: 30px 0;
+  margin: 20px;
   background-color: #f8f8f8;
   padding: 10px;
 }
@@ -139,8 +142,7 @@
 
 @media screen and (max-width: 768px) {
   .coursesCard .items {
-    width: calc(100% - 20px); /* Set full width for single card on smaller screens */
     margin: 10px 0; /* Adjust margin for better spacing */
-    padding: 120px; /* Adjust padding */
+    padding: 20px; /* Adjust padding */
   }
 }
