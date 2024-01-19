@@ -10,6 +10,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/common/footer/Footer";
 import Home from "./components/home/Home";
 import Cards from "./components/allcourses/Cards";
+import BlogPage from "./components/home/BlogPage";
 
 function App() {
   const [showPopup, setShowPopup] = useState(false);
@@ -40,7 +41,10 @@ function App() {
           <Route exact path="/team" element={<Team />} />
         </Routes>
         <Routes>
-          <Route exact path="/journal" element={<Blog />} />
+          <Route exact path="/blog" element={<Blog />} />
+        </Routes>
+        <Routes>
+          <Route exact path="/blog/:id" element={<BlogPage/>} />
         </Routes>
         <Routes>
           <Route exact path="/contact" element={<Contact />} />

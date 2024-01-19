@@ -35,7 +35,7 @@ const Header = () => {
               <Link to='/contact'>Contact</Link>
             </li>
             <li>
-              <Link to='/blog2'>Blog</Link>
+              <Link to='/blog'>Blog</Link>
             </li>
             
           </ul>

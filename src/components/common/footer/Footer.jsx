@@ -1,21 +1,26 @@
-import React from "react"
-import { blog } from "../../../dummydata"
-import "./footer.css"
+import React, { useState } from "react";
+import { blog } from "../../../dummydata";
+import "./footer.css";
+import Popup from "../../../popup/Popup";
 
 const Footer = () => {
-  
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handleIconClick = () => {
+    setShowPopup(true);
+  };
+
   return (
-    
     <>
-      <section className='newletter'>
+       <section className='newletter'>
         <div className='container flexSB'>
           <div className='left row'>
-            <h1>Newsletter - Stay tune and get the latest update</h1>
+            <h1>Newsletter - Stay tuned and get the latest update</h1>
             <span>Far far away, behind the word mountains</span>
           </div>
           <div className='right row'>
             <input type='text' placeholder='Enter email address' />
-            <i className='fa fa-paper-plane'></i>
+            <i className='fa fa-paper-plane' onClick={handleIconClick}></i>
           </div>
         </div>
       </section>
@@ -71,6 +76,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+      {showPopup && <Popup showPopup={showPopup} setShowPopup={setShowPopup} />}
       <div className='legal'>
         <p>
           Copyright ©2022 All rights reserved | This template is made with <i className='fa fa-heart'></i>  

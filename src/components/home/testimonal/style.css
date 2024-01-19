@@ -9,7 +9,7 @@
 .testimonal img {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+  /* border-radius: 60%; */
 }
 .testimonal i {
   position: absolute;
@@ -47,4 +47,11 @@
 .testimonal .items:hover i {
   background-color: #fff;
   color: #05386B;
+}
+
+.blog-link{
+  display: block;
+   
+  text-align: right;
+
 }

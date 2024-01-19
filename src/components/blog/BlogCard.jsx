@@ -1,11 +1,12 @@
 import React from "react"
 import { blog } from "../../dummydata"
+import { Link } from "react-router-dom"
 
 const BlogCard = () => {
   return (
     <>
       {blog.map((val) => (
-        <div className='items shadow'>
+        <div className='items shadow' key={val.id}>
           <div className='img'>
             <img src={val.cover} alt='' />
           </div>
@@ -26,6 +27,7 @@ const BlogCard = () => {
             </div>
             <h1>{val.title}</h1>
             <p>{val.desc}</p>
+            <Link to={`/blog/${val.id}`} className="blog-link">Read More</Link>
           </div>
         </div>
       ))}

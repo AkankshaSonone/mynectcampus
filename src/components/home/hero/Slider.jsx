@@ -1,10 +1,16 @@
-import React from 'react'
+import { useState } from 'react';
 import slider1 from './slider.jpg'
 import './Slider.css'
 import slider2 from './first1.png';
-import slider3 from './third.jpeg';
+import slider3 from './second.png';
 import Heading from "../../common/heading/Heading"
+import Popup from '../../../popup/Popup';
 const Slider = () => {
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handleIconClick = () => {
+    setShowPopup(true);
+  };
   return (
     <div className='slider'> 
     <div id="carouselExampleIndicators" class="carousel slider-div slide" data-ride="carousel">
@@ -21,7 +27,7 @@ const Slider = () => {
             <Heading subtitle='WELCOME TO ACADEMIA' title='Best Option for Your Education' />
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
             <div className='button'>
-              <button className='primary-btn'>
+              <button className='primary-btn' onClick={handleIconClick}>
                 GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
               </button>
               <button>
@@ -38,7 +44,7 @@ const Slider = () => {
             <Heading subtitle='WELCOME TO ACADEMIA' title='Best up Skilling Education Program' />
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
             <div className='button'>
-              <button className='primary-btn'>
+              <button className='primary-btn' onClick={handleIconClick}>
                 GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
               </button>
               <button>
@@ -56,7 +62,7 @@ const Slider = () => {
             <Heading subtitle='WELCOME TO ACADEMIA' title='Best Regular Education Program' />
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
             <div className='button'>
-              <button className='primary-btn'>
+              <button className='primary-btn' onClick={handleIconClick}>
                 GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
               </button>
               <button>
@@ -76,6 +82,7 @@ const Slider = () => {
     <span class="sr-only">Next</span>
   </a>
 </div>
+ {showPopup && <Popup showPopup={showPopup} setShowPopup={setShowPopup} />}
 </div>
   )
 }

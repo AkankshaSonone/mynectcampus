@@ -1,6 +1,12 @@
-import React from 'react'
+import { useState } from "react";
+import Popup from "../../popup/Popup";
 
-const Card = ({ val, setShowPopup }) => {
+const Card = ({ val }) => {
+    const [showPopup, setShowPopup] = useState(false);
+
+  const handleIconClick = () => {
+    setShowPopup(true);
+  };
     return (
         <div className='items'>
             <div className='flex'>
@@ -44,11 +50,10 @@ const Card = ({ val, setShowPopup }) => {
                 </h3>
             </div>
             <button
-                className="outline-btn"
-                onClick={() => setShowPopup(true)}
-            >
+                className="outline-btn" onClick={handleIconClick}>
                 ENROLL NOW !
             </button>
+            {showPopup && <Popup showPopup={showPopup} setShowPopup={setShowPopup} />}
         </div>
     )
 }
