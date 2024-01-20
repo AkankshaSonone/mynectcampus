@@ -18,7 +18,7 @@ const Head = () => {
             }}
           />
           <br></br>
-            <span>ONLINE EDUCATION & LEARNING</span>
+            <span>EDUCATION & LEARNING</span>
           </div>
 
           <div className='social'>

@@ -5,14 +5,10 @@ import Popup from "../../popup/Popup"
 import { useState } from "react"
 
 const CoursesCard = () => {
-//   const [showPopup, setShowPopup] = useState(false);
-//   function show(){
-//  console.log("hello");
-//   setShowPopup(true);
-//   }   
+
   return (
     <>
-    {/* <Popup showPopup ={showPopup}/> */}
+   
       <section className='coursesCard'>
         <div className=' container grid2'>
           {coursesCard.map((val) => (
